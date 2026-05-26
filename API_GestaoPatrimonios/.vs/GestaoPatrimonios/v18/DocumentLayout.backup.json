@@ -1,0 +1,175 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\47014999869\\desktop\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\47014999869\\desktop\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\controllers\\bairrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\controllers\\bairrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\47014999869\\desktop\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\47014999869\\desktop\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\controllers\\areacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\controllers\\areacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\47014999869\\desktop\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\47014999869\\desktop\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\applications\\services\\autenticacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\applications\\services\\autenticacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\47014999869\\desktop\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\applications\\services\\enderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\applications\\services\\enderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\47014999869\\desktop\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\applications\\services\\bairroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\applications\\services\\bairroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\47014999869\\desktop\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\applications\\services\\cidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\applications\\services\\cidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AreaController.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Controllers\\AreaController.cs",
+              "RelativeDocumentMoniker": "GestaoPatrimonios\\Controllers\\AreaController.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Controllers\\AreaController.cs",
+              "RelativeToolTip": "GestaoPatrimonios\\Controllers\\AreaController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T13:00:48.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutenticacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\AutenticacaoService.cs",
+              "RelativeDocumentMoniker": "GestaoPatrimonios\\Applications\\Services\\AutenticacaoService.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\AutenticacaoService.cs",
+              "RelativeToolTip": "GestaoPatrimonios\\Applications\\Services\\AutenticacaoService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T12:59:27.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Program.cs",
+              "RelativeDocumentMoniker": "GestaoPatrimonios\\Program.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Program.cs",
+              "RelativeToolTip": "GestaoPatrimonios\\Program.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAADwv8YAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T12:38:00.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnderecoService.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\EnderecoService.cs",
+              "RelativeDocumentMoniker": "GestaoPatrimonios\\Applications\\Services\\EnderecoService.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\EnderecoService.cs",
+              "RelativeToolTip": "GestaoPatrimonios\\Applications\\Services\\EnderecoService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwGYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T12:36:00.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnderecoController.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Controllers\\EnderecoController.cs",
+              "RelativeDocumentMoniker": "GestaoPatrimonios\\Controllers\\EnderecoController.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Controllers\\EnderecoController.cs",
+              "RelativeToolTip": "GestaoPatrimonios\\Controllers\\EnderecoController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T12:35:50.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BairroService.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\BairroService.cs",
+              "RelativeDocumentMoniker": "GestaoPatrimonios\\Applications\\Services\\BairroService.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\BairroService.cs",
+              "RelativeToolTip": "GestaoPatrimonios\\Applications\\Services\\BairroService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAYwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T12:35:40.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BairroController.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Controllers\\BairroController.cs",
+              "RelativeDocumentMoniker": "GestaoPatrimonios\\Controllers\\BairroController.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Controllers\\BairroController.cs",
+              "RelativeToolTip": "GestaoPatrimonios\\Controllers\\BairroController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T12:35:30.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CidadeService.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\CidadeService.cs",
+              "RelativeDocumentMoniker": "GestaoPatrimonios\\Applications\\Services\\CidadeService.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\CidadeService.cs",
+              "RelativeToolTip": "GestaoPatrimonios\\Applications\\Services\\CidadeService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwEsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T12:34:50.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CidadeController.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Controllers\\CidadeController.cs",
+              "RelativeDocumentMoniker": "GestaoPatrimonios\\Controllers\\CidadeController.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Controllers\\CidadeController.cs",
+              "RelativeToolTip": "GestaoPatrimonios\\Controllers\\CidadeController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowC0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T12:34:25.244Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
