@@ -1,3 +1,8 @@
+.table_section {
+    margin-top: 40px;
+    overflow-x: auto;
+}
+
 .environment_table {
     width: 100%;
     border-collapse: separate;
@@ -10,14 +15,6 @@
     padding-bottom: 16px;
     border-bottom: 1px solid #cfd4da;
     text-align: center;
-}
-
-.environment_table tbody tr td:first-child {
-    border-radius: 12px 0 0 12px;
-}
-
-.environment_table tbody tr td:last-child {
-    border-radius: 0 12px 12px 0;
 }
 
 .environment_table a {
@@ -64,9 +61,9 @@
     color: #ffffff;
 }
 
-.pagination_button:focus,
-.pagination_link:focus,
-.environment_table a:focus {
+.pagination-button:focus,
+.pagination-link:focus,
+.environment-table a:focus {
     outline: 3px solid rgba(207, 41, 41, 0.35);
     outline-offset: 3px;
 }
@@ -75,9 +72,10 @@
 /* TABELA RESPONSIVA REAL */
 /* ========================= */
 @media (max-width: 768px) {
+
     .environment-table,
     .environment-table thead,
-    .environment-table td,
+    .environment-table th,
     .environment-table tr {
         display: block;
         width: 100%;

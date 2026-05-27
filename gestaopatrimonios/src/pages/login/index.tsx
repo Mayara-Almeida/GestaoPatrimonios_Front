@@ -1,3 +1,4 @@
+import ModalImportar from "@/components/modal/modal";
 import styles from "./login.module.css"
 
 const Login = () => {

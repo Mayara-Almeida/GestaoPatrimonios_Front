@@ -1,0 +1,100 @@
+.history_table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 32px;
+}
+
+.history_table td {
+    background-color: #ffffff;
+    padding: 24px;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+}
+
+.history_table tr td:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.history_table tr td:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.status_badge {
+    display: inline-block;
+    padding: 10px 26px;
+    border-radius: 10px;
+    background-color: #ccffe0;
+    color: #00851c;
+}
+
+.history_table a {
+    color: var(--vermelho);
+    font-size: 20px;
+}
+
+.icon{
+    color: var(--cor-vermelha);
+}
+
+@media (max-width: 1200px) {
+
+    .history_table,
+    .history_table tbody,
+    .history_table tr,
+    .history_table td {
+        display: block;
+        width: 100%;
+    }
+
+    .history_table {
+        border-spacing: 0;
+    }
+
+    .history_table tbody {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .history_table tr {
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 20px;
+    }
+
+    .history_table td {
+        background-color: transparent;
+        padding: 10px 0;
+        text-align: left;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .history_table td::before {
+        content: attr(data-label);
+        font-weight: 700;
+        color: #111111;
+    }
+
+    .history_table tr td:first-child,
+    .history_table tr td:last-child {
+        border-radius: 0;
+    }
+
+    .status_badge {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .history_table td {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}

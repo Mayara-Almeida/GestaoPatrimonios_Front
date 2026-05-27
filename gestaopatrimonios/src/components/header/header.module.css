@@ -21,9 +21,8 @@
 .menu_list {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 100px;
-    width: 50%;
 }
 
 .menu_link {

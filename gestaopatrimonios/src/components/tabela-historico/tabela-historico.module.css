@@ -1,0 +1,97 @@
+.table_section {
+    margin-top: 40px;
+}
+
+.table_section h2 {
+    font-size: 24px;
+    margin-bottom: 48px;
+}
+
+.history_table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 32px;
+}
+
+.history_table th {
+    padding: 0 24px 12px;
+    border-bottom: 1px solid #c4c8ce;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--cinza-texto);
+}
+
+.history_table a {
+    color: var(--vermelho);
+    font-size: 20px;
+}
+
+.pagination {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.pagination_button,
+.pagination_link {
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    font-size: 22px;
+}
+
+.pagination_button {
+    border: 1px solid #9fa3a8;
+    background-color: transparent;
+    color: #9fa3a8;
+    cursor: pointer;
+}
+
+.pagination_link {
+    font-weight: 700;
+}
+
+.pagination_link.current {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.pagination_button:focus,
+.pagination_link:focus{
+    outline: 3px solid rgba(207, 41, 41, 0.35);
+    outline-offset: 3px;
+}
+@media (max-width: 1200px) {
+
+    .table_section h2 {
+        margin-bottom: 24px;
+    }
+
+    .history_table,
+    .history_table thead,
+    .history_table tr,
+    .history_table th{
+        display: block;
+        width: 100%;
+    }
+
+    .history_table thead {
+        display: none;
+    }
+
+    .history_table {
+        border-spacing: 0;
+    }
+
+    .history_table tr {
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 20px;
+    }
+}

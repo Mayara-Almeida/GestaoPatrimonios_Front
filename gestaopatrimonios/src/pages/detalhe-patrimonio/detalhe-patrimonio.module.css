@@ -1,0 +1,84 @@
+.page_content {
+    min-height: calc(100vh - 66px);
+    padding: 52px 0 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page_detalhes {
+    display: flex;
+    flex-direction: column;
+}
+
+.back_link {
+    color: var(--cor-vermelha);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 46px;
+}
+
+#titulo_patrimonio {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.patrimonio_card {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 48px 80px;
+    margin-top: 20px;
+}
+
+.patrimonio_content {
+    display: grid;
+    grid-template-columns: 1.6fr 0.7fr 1.1fr 1fr 1fr;
+    gap: 46px;
+    align-items: center;
+}
+
+.patrimonio_content dt {
+    color: var(--cinza-texto);
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.patrimonio_content dd {
+    color: var(--cor-texto);
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.patrimonio_content dl:first-child dd {
+    max-width: 230px;
+}
+
+@media (max-width: 1200px) {
+    .page_content {
+        padding: 38px 0 60px;
+    }
+
+    .back_link {
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+
+    #titulo_patrimonio {
+        font-size: 22px;
+    }
+
+    .patrimonio_card {
+        padding: 28px;
+    }
+
+    .patrimonio_content {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .patrimonio-card {
+        padding: 22px;
+    }
+}
