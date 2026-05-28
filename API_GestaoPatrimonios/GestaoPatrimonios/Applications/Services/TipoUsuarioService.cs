@@ -78,7 +78,7 @@ namespace GestaoPatrimonios.Applications.Services
 
             TipoUsuario tipoUsuarioExistente = _repository.BuscarPorNome(dto.NomeTipo);
 
-            if (tipoUsuarioExistente != null)
+            if (tipoUsuarioExistente != null && tipoUsuarioExistente.TipoUsuarioID != tipoUsuarioId)
             {
                 throw new DomainException("Já existe um tipo de usuário cadastrado com esse nome.");
             }

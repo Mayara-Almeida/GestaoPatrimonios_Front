@@ -78,7 +78,7 @@ namespace GestaoPatrimonios.Applications.Services
 
             StatusTransferencia statusExistente = _repository.BuscarPorNome(dto.NomeStatus);
 
-            if (statusExistente != null)
+            if (statusExistente != null && statusExistente.StatusTransferenciaID != statusTransferenciaId)
             {
                 throw new DomainException("Já existe um status de transferência cadastrado com esse nome.");
             }

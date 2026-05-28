@@ -78,7 +78,7 @@ namespace GestaoPatrimonios.Applications.Services
 
             StatusPatrimonio statusExistente = _repository.BuscarPorNome(dto.NomeStatus);
 
-            if (statusExistente != null)
+            if (statusExistente != null && statusExistente.StatusPatrimonioID != statusPatrimonioId)
             {
                 throw new DomainException("Já existe um status de patrimônio cadastrado com esse nome.");
             }

@@ -92,7 +92,9 @@ builder.Services.AddScoped<CidadeService>();
 builder.Services.AddScoped<IBairroRepository, BairroRepository>();
 builder.Services.AddScoped<BairroService>();
 
+// Enderecos
 builder.Services.AddScoped<IEnderecoRepository, EnderecoRepository>();
+builder.Services.AddScoped<EnderecoService>();
 
 // LogPatrimonio
 builder.Services.AddScoped<ILogPatrimonioRepository, LogPatrimonioRepository>();
@@ -110,6 +112,10 @@ builder.Services.AddScoped<StatusTransferenciaService>();
 builder.Services.AddScoped<ITipoAlteracaoRepository, TipoAlteracaoRepository>();
 builder.Services.AddScoped<TipoAlteracaoService>();
 
+// TipoUsuario
+builder.Services.AddScoped<ITipoUsuarioRepository, TipoUsuarioRepository>();
+builder.Services.AddScoped<TipoUsuarioService>();
+
 // Patrimonio
 builder.Services.AddScoped<IPatrimonioRepository, PatrimonioRepository>();
 builder.Services.AddScoped<PatrimonioService>();
@@ -126,7 +132,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
         // Lê a chave secreta definida no appsettings.json.
-        var chave = Environment.GetEnvironmentVariable("JWT_KEY");
+        var chave = builder.Configuration["Jwt:Key"]!;
         //var chave = builder.Configuration["Jwt:Key"]!;
 
         // Quem emitiu o token.

@@ -52,7 +52,7 @@ namespace GestaoPatrimonios.Applications.Services
 
         public void Adicionar(CriarEnderecoDto dto)
         {
-            Validar.ValidarNome(dto.Logradouro);
+            Validar.ValidarLogradouro(dto.Logradouro);
 
             if (!_repository.BairroExiste(dto.BairroID))
             {
@@ -83,7 +83,7 @@ namespace GestaoPatrimonios.Applications.Services
 
         public void Atualizar(Guid enderecoId, CriarEnderecoDto dto)
         {
-            Validar.ValidarNome(dto.Logradouro);
+            Validar.ValidarLogradouro(dto.Logradouro);
 
             Endereco enderecoBanco = _repository.BuscarPorId(enderecoId);
 

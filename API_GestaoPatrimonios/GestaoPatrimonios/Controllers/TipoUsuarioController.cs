@@ -19,6 +19,7 @@ namespace GestaoPatrimonios.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public ActionResult<List<ListarTipoUsuarioDto>> Listar()
         {
             List<ListarTipoUsuarioDto> tiposUsuario = _service.Listar();
@@ -26,6 +27,7 @@ namespace GestaoPatrimonios.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public ActionResult<ListarTipoUsuarioDto> BuscarPorId(Guid id)
         {
             try

@@ -19,6 +19,7 @@ namespace GestaoPatrimonios.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public ActionResult<List<ListarCargoDto>> Listar()
         {
             List<ListarCargoDto> cargos = _service.Listar();
@@ -26,6 +27,7 @@ namespace GestaoPatrimonios.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public ActionResult<ListarCargoDto> BuscarPorId(Guid id)
         {
             try
