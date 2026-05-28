@@ -94,6 +94,11 @@
         width: 90%;
     }
 
+    /* .page_header{
+        display: flex;
+        flex-direction: column;
+    } */
+
     .search-area {
         width: 100%;
     }
@@ -119,6 +124,7 @@
 
     .search-area {
         width: 100%;
+        display: flex;
         flex-direction: column;
         align-items: stretch;
         gap: 14px;

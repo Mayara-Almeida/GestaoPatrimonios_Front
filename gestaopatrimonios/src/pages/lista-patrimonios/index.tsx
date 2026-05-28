@@ -1,5 +1,5 @@
 import Header from "@/components/header/header";
-import styles from "./lista-patrimonio-por-sala.module.css"
+import styles from "./lista-patrimonios.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSliders, faPlus } from "@fortawesome/free-solid-svg-icons";
 import TabelaPatrimonio from "@/components/tabela-patrimonio/tabela-patrimonio";
