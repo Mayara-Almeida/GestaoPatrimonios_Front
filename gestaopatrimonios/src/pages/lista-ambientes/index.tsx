@@ -1,10 +1,12 @@
 import Header from "@/components/header/header";
-import styles from "./lista-ambientes.module.css"
+import styles from "./lista-ambientes.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSliders } from "@fortawesome/free-solid-svg-icons"; 
 import TabelaAmbiente from "@/components/tabela-ambiente/tabela-ambiente";
+import { useState } from "react";
 
 const ListaAmbientes = () => {
+
     return (
         <>
             <Header />

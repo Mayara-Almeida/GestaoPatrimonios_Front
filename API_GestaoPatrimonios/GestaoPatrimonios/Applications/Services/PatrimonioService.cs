@@ -41,7 +41,7 @@ namespace GestaoPatrimonios.Applications.Services
         {
             Patrimonio patrimonio = _repository.BuscarPorId(patrimonioId);
 
-            if(patrimonio == null)
+            if (patrimonio == null)
             {
                 throw new DomainException("Patrimônio não encontrado");
             }
@@ -54,7 +54,11 @@ namespace GestaoPatrimonios.Applications.Services
                 Valor = patrimonio.Valor,
                 Imagem = patrimonio.Imagem,
                 LocalizacaoID = patrimonio.LocalizacaoID,
-                StatusPatrimonioID = patrimonio.StatusPatrimonioID
+                StatusPatrimonioID = patrimonio.StatusPatrimonioID,
+
+                DataTransferencia = patrimonio.LogPatrimonio
+                    .OrderByDescending(log => log.DataTransferencia)
+                    .FirstOrDefault()?.DataTransferencia
             };
 
             return patrimonioDto;
@@ -129,7 +133,7 @@ namespace GestaoPatrimonios.Applications.Services
             foreach (var item in registros)
             {
                 // se não tem número de patrimônio, ignora o registro
-                if(string.IsNullOrWhiteSpace(item.NumeroPatrimonio))
+                if (string.IsNullOrWhiteSpace(item.NumeroPatrimonio))
                 {
                     // ignora e vai pro próximo
                     continue;
@@ -138,7 +142,7 @@ namespace GestaoPatrimonios.Applications.Services
                 // Remove espaços extras do número
                 string numeroPatrimonio = item.NumeroPatrimonio.Trim();
 
-                if(string.IsNullOrWhiteSpace(item.Denominacao))
+                if (string.IsNullOrWhiteSpace(item.Denominacao))
                 {
                     erros.Add($"Patrimônio {numeroPatrimonio} sem denominação.");
                     continue; // não cadastra, mas segue no loop
@@ -150,17 +154,17 @@ namespace GestaoPatrimonios.Applications.Services
 
                 // usa o formato brasileiro só pra ler
                 // Depois pega o DateTime e formata
-                if(!string.IsNullOrWhiteSpace(item.DataIncorporacao))
+                if (!string.IsNullOrWhiteSpace(item.DataIncorporacao))
                 {
-                    if(DateTime.TryParse(item.DataIncorporacao, new CultureInfo("pt-BR"), DateTimeStyles.None, out DateTime dataConvertida))
+                    if (DateTime.TryParse(item.DataIncorporacao, new CultureInfo("pt-BR"), DateTimeStyles.None, out DateTime dataConvertida))
                     {
                         dataIncorporacao = dataConvertida;
                     }
                 }
 
                 decimal? valorAquisicao = null;
-                
-                if(!string.IsNullOrWhiteSpace(item.ValorAquisicao))
+
+                if (!string.IsNullOrWhiteSpace(item.ValorAquisicao))
                 {
                     // Remove separador de milhar e ajusta decimal
                     string valorTexto = item.ValorAquisicao.Replace(".", "").Replace(",", ".");

@@ -23,7 +23,11 @@ const Header = () => {
                         <li>
                             <a href="#" className={styles.menu_link}>
                                 Ambientes
-                                <FontAwesomeIcon icon={faChevronDown}/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className={styles.menu_link}>
+                                Aprovações
                             </a>
                         </li>
                         <li>

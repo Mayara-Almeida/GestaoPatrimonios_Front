@@ -1,19 +1,19 @@
 import styles from "./registro-ambiente.module.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCircleInfo } from "@fortawesome/free-solid-svg-icons"
 
-const RegistroAmbiente = () => {
+type Localizacao = {
+    nomeLocalizacao: string,
+    nomeArea: string,
+    responsavel: string
+}
+
+const RegistroAmbiente = ({nomeLocalizacao, nomeArea, responsavel}: Localizacao) => {
     return (
         <>
             <tbody className={styles.environment_table}>
                 <tr className="">
-                    <td>Sala 30/31 (anfiteatro)</td>
-                    <td>Samanta Melissa</td>
-                    <td>
-                        <a href="#" aria-label="Ver detalhes da Sala 30/31">
-                           <FontAwesomeIcon icon={faCircleInfo} />
-                        </a>
-                    </td>
+                    <td>{nomeLocalizacao}</td>
+                    <td>{nomeArea}</td>
+                    <td>{responsavel}</td>
                 </tr>
             </tbody>
         </>

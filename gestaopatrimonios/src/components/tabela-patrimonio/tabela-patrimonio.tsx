@@ -1,7 +1,37 @@
+import { useEffect, useState } from "react";
 import RegistroPatrimonio from "../registro-patrimonio/registro-patrimonio";
 import styles from "./tabela-patrimonio.module.css"
+import { listarPatrimonio } from "@/pages/api/patrimonioService";
+
+interface Patrimonio {
+    patrimonioID: string,
+    denominacao: string,
+    numeroPatrimonio: string,
+    valor: number,
+    imagem: string,
+    localizacaoID: string,
+    statusPatrimonioID: string,
+    dataTransferencia: string
+}
 
 const TabelaPatrimonio = () => {
+
+const[patrimonios, setPatrimonios] = useState<Patrimonio[]>([]); 
+
+async function listagem(){
+    try{
+        const lista = await listarPatrimonio();
+        setPatrimonios(lista);
+    }
+    catch(error: any){
+        console.log(error.message);
+    }
+}
+
+useEffect(() => {
+    listagem();
+}, [])
+
     return (
         <>
             <section
@@ -13,13 +43,19 @@ const TabelaPatrimonio = () => {
                         <tr>
                             <th>Patrimônio</th>
                             <th>Denominação</th>
-                            <th>Tipo</th>
                             <th>Data transfêrencia</th>
                             <th>Detalhes</th>
                             <th>Transferir</th>
                         </tr>
                     </thead>
-                    <RegistroPatrimonio />
+                    {patrimonios.map((item) => (
+                        <RegistroPatrimonio 
+                        key={item.patrimonioID}
+                        numeroPatrimonio={item.numeroPatrimonio}
+                        nome={item.denominacao}
+                        dataTransferencia={item.dataTransferencia}
+                        />
+                    ))}
                 </table>
             </section>
 
