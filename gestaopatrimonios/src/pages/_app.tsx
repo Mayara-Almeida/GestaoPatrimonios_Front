@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Montserrat } from "next/font/google";
+import { ToastContainer } from "react-toastify/unstyled";
 
 const mont = Montserrat({
   variable: "--font-padrao",
@@ -13,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <main className={mont.variable}>
       <Component {...pageProps} />
-
+      <ToastContainer />
     </main>
   )
 }

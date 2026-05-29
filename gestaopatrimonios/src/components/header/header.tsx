@@ -1,8 +1,17 @@
 import styles from "./header.module.css"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars, faChevronDown, faUser} from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
+
+// interface Usuario {
+//     nome: string,
+//     email: string
+// } 
 
 const Header = () => {
+
+    // const [usuario, setUsuario] = useState<Usuario>();
+
     return (
         <>
             <header className={styles.topbar}>
@@ -29,6 +38,8 @@ const Header = () => {
                             <FontAwesomeIcon icon={faUser} />
                         </button>
                         <div className={styles.user_info}>
+                            {/* <strong>{usuario?.nome}</strong>
+                            <span>{usuario?.email}</span> */}
                             <strong>Késsia Milena</strong>
                             <span>kessia@sp.senai.br</span>
                         </div>

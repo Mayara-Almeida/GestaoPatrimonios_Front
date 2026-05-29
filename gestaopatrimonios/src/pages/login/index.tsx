@@ -1,9 +1,36 @@
 import ModalImportar from "@/components/modal/modal";
 import styles from "./login.module.css"
+import React, { useState } from "react";
+import { useRouter } from "next/router";
+import { login } from "../api/authService";
+import { erro, notificacaoSucesso } from "@/utils/toast";
+import { ToastContainer } from "react-toastify";
+import Link from "next/link";
 
 const Login = () => {
+
+    const [nif, setNif] = useState<string>("");
+    const [senha, setSenha] = useState<string>("");
+
+    const router = useRouter();
+
+    async function autenticar(e: React.FormEvent<HTMLFormElement>){
+        e.preventDefault();
+        try{
+            await login(nif, senha);
+            notificacaoSucesso("Login bem sucedido!");
+            setTimeout(() => {
+                router.push("/lista-ambientes")
+            }, 800);
+        }
+        catch(error: any){
+            erro(error.message);
+        }
+    }
+
     return (
         <>
+        <ToastContainer />
                 <main className={styles.login_page}>
                 <section className={styles.login_banner} aria-label="Apresentação do sistema">
                     <img
@@ -26,7 +53,7 @@ const Login = () => {
                     </div>
                 </section>
                 <section className={styles.login_area} aria-label="Formulário de login">
-                    <form className={styles.login_form}>
+                    <form className={styles.login_form} onSubmit={autenticar}>
                         <h1>Login</h1>
                         <div className={styles.form_group}>
                             <label htmlFor="nif">NIF:</label>
@@ -36,6 +63,8 @@ const Login = () => {
                                 name="nif"
                                 placeholder="Insira o seu NIF"
                                 required
+                                value={nif}
+                                onChange={(e) => setNif(e.target.value)}
                             />
                         </div>
                         <div className={styles.form_group}>
@@ -47,6 +76,8 @@ const Login = () => {
                                     name="senha"
                                     placeholder="Insira a sua senha"
                                     required
+                                    value={senha}
+                                    onChange={(e) => setSenha(e.target.value)}
                                 />
                                 {/* Arrumar funcionalidade desse botão */}
                                 <button

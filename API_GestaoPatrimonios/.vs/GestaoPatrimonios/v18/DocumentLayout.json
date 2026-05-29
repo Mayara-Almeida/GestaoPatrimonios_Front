@@ -1,89 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\applications\\services\\solicitacaotransferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\applications\\services\\solicitacaotransferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\applications\\services\\statuspatrimonioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\applications\\services\\statuspatrimonioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\applications\\services\\statustransferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\applications\\services\\statustransferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\gestaopatrimonios_front\\api_gestaopatrimonios\\gestaopatrimonios\\applications\\services\\tipousuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{769C1085-4D55-4173-831C-DA8276FFFE99}|GestaoPatrimonios\\GestaoPatrimonios.csproj|solutionrelative:gestaopatrimonios\\applications\\services\\tipousuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SolicitacaoTransferenciaService.cs",
-              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\SolicitacaoTransferenciaService.cs",
-              "RelativeDocumentMoniker": "GestaoPatrimonios\\Applications\\Services\\SolicitacaoTransferenciaService.cs",
-              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\SolicitacaoTransferenciaService.cs",
-              "RelativeToolTip": "GestaoPatrimonios\\Applications\\Services\\SolicitacaoTransferenciaService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwC0AAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T14:49:32.919Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StatusPatrimonioService.cs",
-              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\StatusPatrimonioService.cs",
-              "RelativeDocumentMoniker": "GestaoPatrimonios\\Applications\\Services\\StatusPatrimonioService.cs",
-              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\StatusPatrimonioService.cs",
-              "RelativeToolTip": "GestaoPatrimonios\\Applications\\Services\\StatusPatrimonioService.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowFAAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T14:46:17.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StatusTransferenciaService.cs",
-              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\StatusTransferenciaService.cs",
-              "RelativeDocumentMoniker": "GestaoPatrimonios\\Applications\\Services\\StatusTransferenciaService.cs",
-              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\StatusTransferenciaService.cs",
-              "RelativeToolTip": "GestaoPatrimonios\\Applications\\Services\\StatusTransferenciaService.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAkwEkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T14:32:57.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TipoUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\TipoUsuarioService.cs",
-              "RelativeDocumentMoniker": "GestaoPatrimonios\\Applications\\Services\\TipoUsuarioService.cs",
-              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\GestaoPatrimonios_Front\\API_GestaoPatrimonios\\GestaoPatrimonios\\Applications\\Services\\TipoUsuarioService.cs",
-              "RelativeToolTip": "GestaoPatrimonios\\Applications\\Services\\TipoUsuarioService.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowFAAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T13:22:55.478Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
