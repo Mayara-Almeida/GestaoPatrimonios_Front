@@ -17,7 +17,7 @@ const Header = () => {
             <header className={styles.topbar}>
                 <nav className={`${styles.navbar} layout_guide`} aria-label="Menu principal">
                     <a href="#" className={styles.logo_link} aria-label="Página inicial">
-                        <img src="./imgs/logo_senai.png" alt="Logo SENAI" className={styles.logo} />
+                        <img src="../imgs/logo_senai.png" alt="Logo SENAI" className={styles.logo} />
                     </a>
                     <ul className={styles.menu_list}>
                         <li>
